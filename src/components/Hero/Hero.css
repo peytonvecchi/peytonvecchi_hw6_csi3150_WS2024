@@ -1,0 +1,34 @@
+.Hero {
+
+  display: flex;
+  justify-content: center;
+  
+  width: 100vw;
+  height: 100vh;
+
+  /* Your other styles */
+  background-image: url('../../assets/HeroSection-bg-image.jpg');
+  /* Additional background properties */
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-repeat: no-repeat;
+
+}
+
+.Hero .HeroText {
+    margin-top: 40px;
+    background: rgba(0, 0, 0, 0.85);
+    width: 800px;
+    height: 180px;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.Hero .HeroText h1 {
+    margin-bottom: 40px;
+}
+
+.Hero .HeroText p {
+    font-size: 15pt;
+}
